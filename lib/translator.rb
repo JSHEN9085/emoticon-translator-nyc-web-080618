@@ -12,7 +12,6 @@ def load_library(test)
   data.each do |key1,variable1|
     my_hash["get_emoticon"][variable1[0]] = variable1[1]
     my_hash["get_meaning"][variable1[1]] = key1
-    #my_hash["get_emoticon"][]
   end
    return my_hash
 end
